@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import background from './assets/img/background.jpg';
 
 function App() {
@@ -18,13 +19,17 @@ function App() {
         <Nav
           categories={categories}
           setCurrentCategory={setCurrentCategory}
-          currentCategory={currentCategory}> 
+          currentCategory={currentCategory}>
         </Nav>
       </header>
-      <img src={background} className="my-2" style={{ width: "100%" }} alt="cover" />
+      <main>
+        <div>
+          <img src={background} className="my-2" style={{ width: "100%" }} alt="cover" />
+        </div>
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
 
 export default App;
-

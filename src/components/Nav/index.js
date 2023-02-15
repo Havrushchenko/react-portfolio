@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import avatar from '../../assets/img/avatar.jpg';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
@@ -15,6 +16,7 @@ function Nav(props) {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-teal p-6">
             <div className="flex items-center flex-no-shrink mr-6">
+            <img class="w-10 h-10 rounded-full mr-6" src={avatar} alt="Rounded avatar"></img>
                 <span className="font-semibold text-xl tracking-tight">Havrushchenko Volodya</span>
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
