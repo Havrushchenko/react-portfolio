@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
+import background from './assets/img/background.jpg';
 
 function App() {
   const [categories] = useState([
@@ -20,6 +21,7 @@ function App() {
           currentCategory={currentCategory}> 
         </Nav>
       </header>
+      <img src={background} className="my-2" style={{ width: "100%" }} alt="cover" />
     </div>
   );
 }
