@@ -1,4 +1,5 @@
 import React from 'react';
+const year = new Date().getFullYear();
 
 function Footer() {
 
@@ -76,6 +77,8 @@ function Footer() {
       </a>
     </div>
 </footer>
+<div className='flex justify-center text-sm'>
+   {`Copyright © ${year}`}</div>
         </section>
     );
 }
