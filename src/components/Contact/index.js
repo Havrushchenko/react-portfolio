@@ -62,7 +62,7 @@ function Contact() {
                                 <p className="text-sm text-gray-500">{errorMessage}</p>
                             </div>
                         )}
-                        <button type="button" onClick={handleFormSubmit} class="bg-black rounded-md py-3 px-7 mt-6 text-white">Submit</button>
+                        <button type="button" onClick={handleFormSubmit} class="bg-gray-800 hover:bg-gray-500 rounded-md py-3 px-7 mt-6 text-white">Submit</button>
                     </div>
                 </div>
             </div>

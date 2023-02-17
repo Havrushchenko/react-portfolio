@@ -1,7 +1,7 @@
 import React from 'react';
 import avatar from '../../assets/img/avatar.jpg';
 
-export default function About() {
+export default function About({handlePageChange}) {
     return (
         <div class="flex items-center justify-center h-screen">
             <div class="flex items-center">
@@ -11,7 +11,7 @@ export default function About() {
                             <h1 class="text-3xl uppercase">Havrushchenko Volodya</h1>
                             <p class="font-semibold mb-5">Web Developer, Lviv (UA)</p>
                             <p className='text-sm text-gray-500'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-                            <button class="bg-black rounded-md py-3 px-7 mt-6 text-white">Email Me</button>
+                            <button class="bg-gray-800 hover:bg-gray-500 rounded-md py-3 px-7 mt-6 text-white">Email Me</button>
                         </div>
                         <div className="avatar">
                             <img src={avatar} alt=""></img>

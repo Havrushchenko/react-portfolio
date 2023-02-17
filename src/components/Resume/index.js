@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "../../assets/img/avatar.jpg";
 
 export default function Resume() {
     return (
@@ -28,6 +29,9 @@ export default function Resume() {
                         <li>REST</li>
                         <li>MERN Stack</li>
                     </ul>
+                    <p className="text-sm text-gray-800 mr-4 uppercase mt-5">
+                            Download my <a href={resume} className="text-gray-500" download>resume</a>
+                        </p>
                 </div>
             </div>
         </div>
