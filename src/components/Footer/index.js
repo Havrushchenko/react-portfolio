@@ -76,7 +76,7 @@ function Footer() {
                     </a>
                 </div>
             </footer>
-            <div className='flex justify-center text-sm pb-6'>
+            <div className='flex justify-center text-sm text-gray-500 pb-6'>
                 {`Copyright © ${year}`}</div>
         </section>
     );

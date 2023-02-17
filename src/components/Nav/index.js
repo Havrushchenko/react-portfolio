@@ -17,7 +17,7 @@ function Nav({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('About Me')}
                         //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-                        className={currentPage === 'About Me' ? 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase underline' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase'}
+                        className={currentPage === 'About Me' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         About Me
                     </a>
@@ -28,7 +28,7 @@ function Nav({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Portfolio')}
                         //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-                        className={currentPage === 'Portfolio' ? 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase underline' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase'}
+                        className={currentPage === 'Portfolio' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         Portfolio
                     </a>
@@ -39,7 +39,7 @@ function Nav({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Contact')}
                         //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-                        className={currentPage === 'Contact' ? 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase underline' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase'}
+                        className={currentPage === 'Contact' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         Contact
                     </a>
@@ -50,7 +50,7 @@ function Nav({ currentPage, handlePageChange }) {
                         onClick={() => handlePageChange('Resume')}
                         //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 
-                        className={currentPage === 'Resume' ? 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase underline' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 uppercase'}
+                        className={currentPage === 'Resume' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         Resume
                     </a>

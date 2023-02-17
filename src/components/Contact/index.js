@@ -52,7 +52,7 @@ function Contact() {
                             <div class="mt-1">
                                 <textarea value={userMessage} id="userMessage" name="userMessage" onChange={handleInputChange} rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Your message"></textarea>
                             </div>
-                            <p class="mb-6 mt-2 text-sm text-gray-500">Write a few sentences to me.Or simply send me an email at: <a href='mailto:havrushchenko@gmail.com'>havrushchenko@gmail.com</a></p>
+                            <p class="mb-6 mt-2 text-sm text-gray-500">Write a few sentences to me. Or simply send me an email at: <a href='mailto:havrushchenko@gmail.com' className='font-semibold'>havrushchenko@gmail.com</a></p>
                         </div>
                         {errorMessage && (
                             <div>
