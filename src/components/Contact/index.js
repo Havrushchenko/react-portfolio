@@ -38,6 +38,7 @@ function Contact() {
             <div class="flex items-center">
                 <div class="flex bg-white p-10">
                     <div class="mb-auto mt-auto max-w-lg">
+                    <h2 class="text-3xl uppercase mb-5">Contact</h2>
                         <div class="mb-6">
                             <label for="email" class="block font-semibold mb-5">Your email</label>
                             <input value={email} name="email" onChange={handleInputChange} type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="name@flowbite.com" required></input>

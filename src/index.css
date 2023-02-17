@@ -13,3 +13,13 @@
     max-width: 300px;
     height: auto;
 }
+
+.back-end {
+    margin-top: 15px;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
