@@ -9,7 +9,6 @@ import Footer from '../Footer/index';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
     if (currentPage === 'About Me') {
       return <About />;

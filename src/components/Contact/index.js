@@ -27,6 +27,9 @@ function Contact() {
         if (!validateEmail(email) || !userName) {
             setErrorMessage('Email or username is invalid');
             return;
+        } else if(!userMessage) {
+            setErrorMessage('Message is required');
+            return;
         }
         alert(`Your message has been sent, ${userName}`);
         setUserName('');
@@ -34,7 +37,7 @@ function Contact() {
         setUserMessage('');
     };
     return (
-        <div class="contact-form flex items-center justify-center h-screen">
+        <div class="flex items-center justify-center h-screen">
             <div class="flex items-center">
                 <div class="flex bg-white p-10">
                     <div class="mb-auto mt-auto max-w-lg">

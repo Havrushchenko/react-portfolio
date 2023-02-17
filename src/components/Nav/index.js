@@ -1,8 +1,6 @@
 import React from 'react';
 import avatar from '../../assets/img/avatar.jpg';
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-
 function Nav({ currentPage, handlePageChange }) {
     return (
         <nav className="flex items-center justify-between flex-wrap bg-teal p-6">
@@ -15,8 +13,6 @@ function Nav({ currentPage, handlePageChange }) {
                     <a
                         href="#about"
                         onClick={() => handlePageChange('About Me')}
-                        //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
                         className={currentPage === 'About Me' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         About Me
@@ -26,8 +22,6 @@ function Nav({ currentPage, handlePageChange }) {
                     <a
                         href="#portfolio"
                         onClick={() => handlePageChange('Portfolio')}
-                        //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
                         className={currentPage === 'Portfolio' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         Portfolio
@@ -37,8 +31,6 @@ function Nav({ currentPage, handlePageChange }) {
                     <a
                         href="#contact"
                         onClick={() => handlePageChange('Contact')}
-                        //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
                         className={currentPage === 'Contact' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         Contact
@@ -48,8 +40,6 @@ function Nav({ currentPage, handlePageChange }) {
                     <a
                         href="#resume"
                         onClick={() => handlePageChange('Resume')}
-                        //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
                         className={currentPage === 'Resume' ? 'block mt-4 lg:inline-block lg:mt-0  text-sm text-gray-800 mr-4 uppercase' : 'block mt-4 lg:inline-block lg:mt-0  mr-4 text-sm text-gray-500 uppercase'}
                     >
                         Resume
