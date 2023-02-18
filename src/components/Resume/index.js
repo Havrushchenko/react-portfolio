@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from "../../assets/img/avatar.jpg";
+import resume from "../../assets/Resume Volodya Havrushchenko.pdf";
 
 export default function Resume() {
     return (
@@ -16,8 +16,6 @@ export default function Resume() {
                         <li>Git</li>
                         <li>React</li>
                         <li>Bootstrap</li>
-                        <li>SASS</li>
-                        <li>WordPress</li>
                     </ul>
                     <p class="back-end font-semibold mb-5">Back-end</p>
                     <ul className='text-sm text-gray-500'>

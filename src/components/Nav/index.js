@@ -3,7 +3,8 @@ import avatar from '../../assets/img/avatar.jpg';
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-        <nav className="flex items-center justify-between flex-wrap bg-teal p-6">
+        <nav className="relative bg-white">
+            <div className='flex items-center justify-between flex-wrap bg-white p-6'>
             <div className="flex items-center flex-no-shrink mr-6">
                 <img className="w-10 h-10 rounded-full mr-6" src={avatar} alt="Rounded avatar"></img>
                 <span className="text-3xl uppercase">Havrushchenko Volodya</span>
@@ -45,6 +46,7 @@ function Nav({ currentPage, handlePageChange }) {
                         Resume
                     </a>
                 </div>
+            </div>
             </div>
         </nav>
     );

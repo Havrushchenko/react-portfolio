@@ -4,7 +4,7 @@ const year = new Date().getFullYear();
 function Footer() {
     return (
         <section>
-            <footer className="flex items-center justify-between flex-wrap bg-teal p-6">
+            <footer className="flex items-center justify-between flex-wrap bg-white p-6">
                 <div className="flex items-center justify-center w-full block flex-grow lg:flex lg:w-auto">
                     <a href="#!" className="mr-9 text-gray-800">
                         <svg
@@ -76,7 +76,7 @@ function Footer() {
                     </a>
                 </div>
             </footer>
-            <div className='flex justify-center text-sm text-gray-500 pb-6'>
+            <div className='flex justify-center text-sm text-gray-500 bg-white pb-6'>
                 {`Copyright © ${year}`}</div>
         </section>
     );
