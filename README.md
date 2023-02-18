@@ -29,7 +29,7 @@
   ![User inputs](./src/assets/img/resume.png)
 
   ## GitHub Links
-  - https://github.com/Havrushchenko/dream-trip
+  - https://github.com/Havrushchenko/react-portfolio
 
   ## Contributors:
   - Github: https://github.com/Havrushchenko
