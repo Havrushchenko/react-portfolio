@@ -32,6 +32,7 @@
   - https://github.com/Havrushchenko/react-portfolio
 
   ## Contributors:
-  - Github: https://github.com/Havrushchenko
+  - GitHub: https://github.com/Havrushchenko
+  - GitHub Pages: https://havrushchenko.github.io/react-portfolio/#about
 
   This README.md is made with a [Proffesional Readme Generator](https://github.com/Havrushchenko/proffesional-readme-generator).
