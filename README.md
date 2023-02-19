@@ -1,4 +1,4 @@
-# Dream Trip
+# React Portfolio
   ## License: MIT
   ### 
   ## Table of Contents
