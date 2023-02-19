@@ -5,6 +5,7 @@ import Contact from '../Contact/index';
 import Portfolio from '../Portfolio/index';
 import Resume from '../Resume/index';
 import Footer from '../Footer/index';
+import Background from '../../assets/img/background.jpg';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -29,7 +30,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div className="background-image">
+      <div style={{backgroundImage: `url(${Background})`, width: '100vw', height: '100vh', backgroundSize: 'cover'}}>
       {renderPage()}
       </div>
       <Footer></Footer>
