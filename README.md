@@ -4,7 +4,7 @@
   ## Table of Contents
   - [Description](#description)
   - [Screenshots of Application](#screenshots-of-application)
-  - [Github Link](#github-link)
+  - [Github Links](#github-links)
   - [Contributors](#contributors)
 
   ## Description:
@@ -29,10 +29,10 @@
   ![User inputs](./src/assets/img/resume.png)
 
   ## GitHub Links
-  - https://github.com/Havrushchenko/react-portfolio
+  - GitHub: https://github.com/Havrushchenko/react-portfolio
+  - GitHub Pages: https://havrushchenko.github.io/react-portfolio/
 
   ## Contributors:
   - GitHub: https://github.com/Havrushchenko
-  - GitHub Pages: https://havrushchenko.github.io/react-portfolio/#about
 
   This README.md is made with a [Proffesional Readme Generator](https://github.com/Havrushchenko/proffesional-readme-generator).
