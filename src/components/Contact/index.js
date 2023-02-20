@@ -53,7 +53,7 @@ function Contact() {
                         <div>
                             <label for="about" className="block font-semibold mb-5">Your message</label>
                             <div className="mt-1">
-                                <textarea value={userMessage} id="userMessage" name="userMessage" onChange={handleInputChange} rows="3" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" placeholder="Your message"></textarea>
+                                <textarea value={userMessage} type="text" id="userMessage" name="userMessage" onChange={handleInputChange} rows="3" style={{resize: 'none'}} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="Your message"></textarea>
                             </div>
                             <p className="mb-6 mt-2 text-sm text-gray-500">Write a few sentences to me. Or simply send me an email at: <a href='mailto:havrushchenko@gmail.com' className='font-semibold'>havrushchenko@gmail.com</a></p>
                         </div>
