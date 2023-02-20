@@ -11,7 +11,7 @@ export default function About() {
                             <h2 className="text-3xl font-bold text-gray-900 uppercase">Havrushchenko Volodya</h2>
                             <p className="font-semibold mb-5">Web Developer, Lviv (UA)</p>
                             <p className='text-sm text-gray-500'>I am a Full Stack Software engineer from Ukraine. Fast learner, obsessed with details and guality, always trying to
-                            improve development process and code guality, I love simple and elegant solutions for every problem.</p>
+                            improve development process and code quality, I love simple and elegant solutions for every problem.</p>
                             <a href='mailto:havrushchenko@gmail.com'>
                             <button className="bg-gray-800 hover:bg-gray-700 rounded-md py-3 px-7 mt-6 text-white">Email Me</button>
                             </a>
