@@ -25,7 +25,7 @@ function Footer() {
                 {icons.map((icon) =>
                 (
                     <div className="flex items-center justify-center block lg:flex lg:w-auto">
-                        <a href={icon.link} className="mr-2 text-gray-800">
+                        <a href={icon.link} target='_blank' className="mr-2 text-gray-800">
                             <img src={icon.name} className='w-5 h-5' aria-hidden="true" focusable="false" data-prefix="fab" alt='social media icon'></img>
                         </a>
                     </div>
