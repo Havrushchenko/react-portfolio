@@ -39,7 +39,7 @@ function Contact() {
     return (
         <div className="flex items-center justify-center h-screen" style={{width: '500px', margin: 'auto'}}>
             <div className="flex items-center">
-                <div className="flex bg-white p-10">
+                <div className="contact flex bg-white p-10">
                     <div className="mb-auto mt-auto max-w-lg">
                     <h2 className="flex justify-center text-3xl uppercase mb-5">Contact</h2>
                         <div className="mb-6">

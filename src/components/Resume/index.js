@@ -4,7 +4,7 @@ import resume from "../../assets/Resume Volodya Havrushchenko.pdf";
 export default function Resume() {
     return (
         <div className="flex items-center justify-center h-screen">
-            <div className="resume flex justify-center bg-white p-10" style={{width: '500px', margin: 'auto', height: '604px'}}>
+            <div className="resume flex justify-center bg-white p-10" style={{width: '500px', margin: 'auto', height: '626px'}}>
                 <div className="max-w-lg">
                     <h2 className="flex justify-center text-3xl uppercase mb-5">Resume</h2>
                     <p className="flex justify-center font-semibold mb-5">Front-end</p>
