@@ -3,11 +3,11 @@ import avatar from '../../assets/img/avatar.jpg';
 
 export default function About() {
     return (
-        <div className="flex flex-col items-center justify-center h-full">
+        <div className="flex items-center justify-center h-full">
             <div className="flex items-center">
                 <div className="max-h-96 md:h-screen">
                     <div className="flex md:flex-row sm:flex-col items-center bg-white p-10">
-                        <div className="flex flex-col items-center mb-auto mt-auto max-w-lg">
+                        <div className="mb-auto mt-auto max-w-lg">
                             <h2 className="text-3xl font-bold text-gray-900 uppercase">Havrushchenko Volodya</h2>
                             <p className="font-semibold mb-5">Web Developer, Lviv (UA)</p>
                             <p className='text-sm text-gray-500'>I am a Full Stack Software engineer from Ukraine. Fast learner, obsessed with details and guality, always trying to
