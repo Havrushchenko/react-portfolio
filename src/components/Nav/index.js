@@ -5,10 +5,10 @@ function Nav({ currentPage, handlePageChange }) {
     return (
         <nav className="relative bg-white">
             <div className='flex items-center justify-between flex-wrap bg-white p-6'>
-            <div className="flex items-center flex-no-shrink mr-6">
+            <a href='#about' onClick={() => handlePageChange('About Me')} className="flex items-center flex-no-shrink mr-6">
                 <img className="w-10 h-10 rounded-full mr-6" src={avatar} alt="Rounded avatar"></img>
                 <span className="text-3xl uppercase">Havrushchenko Volodya</span>
-            </div>
+            </a>
             <div className="w-full block justify-end lg:flex lg:items-center lg:w-auto">
                 <div className="lg:flex-grow">
                     <a
