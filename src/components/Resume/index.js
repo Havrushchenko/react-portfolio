@@ -28,7 +28,7 @@ export default function Resume() {
                         <li>MERN Stack</li>
                     </ul>
                     <p className="text-sm text-gray-800 mr-4 uppercase mt-10">
-                            Download my <a href={resume} className="text-gray-500" download> resume</a>
+                            <a href={resume} className="text-gray-500" download>Download my resume</a>
                         </p>
                 </div>
             </div>
