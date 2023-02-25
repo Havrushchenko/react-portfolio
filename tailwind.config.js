@@ -1,7 +1,7 @@
 module.exports = {
   content: ['./src/components/Nav/index.js', './src/components/Footer/index.js', 
-  './src/components/About/index.js', './src/components/Contact/index.js', './src/components/Resume/index.js',
-  './src/components/Portfolio/index.js'],
+  './src/pages/About.js', './src/pages/Contact.js', './src/pages/Resume.js',
+  './src/pages/Portfolio.js'],
   theme: {
     extend: {},
   },

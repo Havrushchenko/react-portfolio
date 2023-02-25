@@ -1,9 +1,8 @@
-import React from 'react';
-import avatar from '../../assets/img/avatar.jpg';
+import avatar from '../assets/img/avatar.jpg';
 
-export default function About() {
+export function About() {
     return (
-        <div className="flex items-center justify-center h-full">
+        <section className="flex items-center justify-center h-screen">
             <div className="flex items-center">
                 <div className="max-h-96 md:h-screen">
                     <div className="flex md:flex-row sm:flex-col items-center bg-white p-10">
@@ -22,6 +21,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

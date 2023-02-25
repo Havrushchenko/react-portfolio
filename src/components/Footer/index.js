@@ -1,10 +1,9 @@
-import React from 'react';
 import facebook from '../../assets/icons/facebook.png';
 import instagram from '../../assets/icons/instagram.png';
 import github from '../../assets/icons/github.png';
 const year = new Date().getFullYear();
 
-function Footer() {
+export function Footer() {
     const icons = [
         {
             name: facebook,
@@ -25,7 +24,7 @@ function Footer() {
                 {icons.map((icon) =>
                 (
                     <div className="flex items-center justify-center block lg:flex lg:w-auto">
-                        <a href={icon.link} target='_blank' className="mr-2 text-gray-800">
+                        <a href={icon.link} target='_blank' rel="noreferrer" className="mr-2 text-gray-800">
                             <img src={icon.name} className='w-5 h-5' aria-hidden="true" focusable="false" data-prefix="fab" alt='social media icon'></img>
                         </a>
                     </div>
@@ -37,5 +36,3 @@ function Footer() {
         </section>
     );
 }
-
-export default Footer;
